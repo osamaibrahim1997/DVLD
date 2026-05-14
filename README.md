@@ -29,25 +29,30 @@ The application provides a complete workflow for managing driving license operat
 - Delete people
 - Search and filter people
 - Store personal details and images
-
+![Login Screen](Screenshots/Manage_People.png)
 ---
 
 ## 🚘 Driver Management
 - Create drivers linked to people
 - View driver history
 - Manage driver records
-
+![Manage Drivers](Screenshots/Manage_Drivers.png)
 ---
 
 ## 📄 License Services
 - Issue new local driving licenses
 - Renew licenses
+ ![Renew License](Renew_License/login.png) 
 - Replace lost licenses
 - Replace damaged licenses
+ ![Lost For damaged Or Lost](Screenshots/Replace_For_Lost_Or_Damage.png)
 - Release detained licenses
+ ![Release Detaind License](Screenshots/Release_Detained_License.png)
 - Retake tests
+ ![Retake Test](Screenshots/Release_Detained_License.png)
 - Issue new International driving licenses
 ---
+
 
 ## 🧪 Test Management
 - Schedule vision tests
@@ -68,10 +73,11 @@ The application provides a complete workflow for managing driving license operat
 
 ## 🔐 User Management
 - Add system users
+   ![Manage Users](Screenshots/Manage_Users.png)
 - Manage permissions
 - Enable/Disable users
 - Login system
-
+ ![Change Password](Screenshots/Change_UserPassword.png)
 ---
 
 ## 💰 Fees & Validation
@@ -87,7 +93,6 @@ The application provides a complete workflow for managing driving license operat
 
 The project follows the 3-Tier Architecture:
 
-```text
 Presentation Layer (WinForms UI)
         ↓
 Business Logic Layer (BLL)
@@ -96,7 +101,8 @@ Data Access Layer (DAL)
         ↓
 SQL Server Database
 ```
-![Architecture](ScreenShots/DataBaseDiagram.png)
+![Database Diagram](ScreenShots/Database_Diagram.png)
+
 ---
 
 # 🛠 Technologies Used
