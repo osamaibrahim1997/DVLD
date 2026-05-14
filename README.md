@@ -126,7 +126,7 @@ SQL Server Database
 
 The project uses SQL Server database with relational tables and stored procedures to manage:
 
-![Database Diagram](ScreenShots/Database_Diagram.png)
+![Database Diagram](Screenshots/Database_Diagram.png)
 
 - Applications
 - Drivers
