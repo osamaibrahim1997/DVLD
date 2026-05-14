@@ -22,7 +22,7 @@ The application provides a complete workflow for managing driving license operat
 ---
 
 # 🚀 Features
-
+![Main Screen](Screenshots/Main_Screen.png)
 ## 👤 People Management
 - Add new people
 - Update person information
@@ -41,16 +41,17 @@ The application provides a complete workflow for managing driving license operat
 
 ## 📄 License Services
 - Issue new local driving licenses
+  ![Issue License First Time](Screenshots/Issue_License_First_Time.png)
 - Renew licenses
- ![Renew License](Renew_License/login.png) 
-- Replace lost licenses
-- Replace damaged licenses
+ ![Renew License](Screenshots/login.png) 
+- Replace lost licenses &  Replace damaged licenses
  ![Lost For damaged Or Lost](Screenshots/Replace_For_Lost_Or_Damage.png)
 - Release detained licenses
  ![Release Detaind License](Screenshots/Release_Detained_License.png)
 - Retake tests
  ![Retake Test](Screenshots/Release_Detained_License.png)
 - Issue new International driving licenses
+   ![Issue International License](Screenshots/Issue_International_License.png)
 ---
 
 
@@ -60,11 +61,14 @@ The application provides a complete workflow for managing driving license operat
 - Schedule street tests
 - Manage test appointments
 - Save test results
-
+ ![take Test](Renew_License/take_Test.png)
+take_Test
 ---
 
 ## 📋 Application Management
+![Manage Local Applications](Screenshots/Manage_Local_Applications.png)
 - Create license applications
+![Add New Local App](Screenshots/Add_New_Local_App.png)
 - Track application status
 - Cancel applications
 - Complete applications
