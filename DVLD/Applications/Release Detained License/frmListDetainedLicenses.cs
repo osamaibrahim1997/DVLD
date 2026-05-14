@@ -188,5 +188,11 @@ namespace DVLD.Applications.Release_Detained_License
             frmRealeseDetainedLicen_se frm = new frmRealeseDetainedLicen_se(LicensID, DetanID);
             frm.ShowDialog();
         }
+
+        private void btnReleaseDetainedLicense_Click(object sender, EventArgs e)
+        {
+            frmRealeseDetainedLicen_se frmRealeseDetainedLicen_Se = new frmRealeseDetainedLicen_se();
+            frmRealeseDetainedLicen_Se.ShowDialog();
+        }
     }
 }

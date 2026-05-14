@@ -43,6 +43,7 @@
             // 
             // dgvDrivers
             // 
+            this.dgvDrivers.AllowUserToAddRows = false;
             this.dgvDrivers.BackgroundColor = System.Drawing.Color.White;
             this.dgvDrivers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDrivers.Location = new System.Drawing.Point(12, 210);

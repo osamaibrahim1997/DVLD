@@ -146,21 +146,30 @@ SELECT SCOPE_IDENTITY();
         public static bool DeletePersonByID(int PersonID)
         {
             int rowsAffected;
-            using (SqlConnection connection = new SqlConnection(DataAccessSettings.ConnectionString))
+            try
             {
-                string query = @"
+                using (SqlConnection connection = new SqlConnection(DataAccessSettings.ConnectionString))
+                {
+                    string query = @"
                               DELETE FROM People
                                 WHERE PersonID = @PersonID";
 
-                SqlCommand command = new SqlCommand(query, connection);
-                command.Parameters.AddWithValue("@PersonID", PersonID);               
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@PersonID", PersonID);
 
-                connection.Open();
+                    connection.Open();
 
-                rowsAffected = command.ExecuteNonQuery();
+                    rowsAffected = command.ExecuteNonQuery();
 
+                }
+                return (rowsAffected > 0);
             }
-            return (rowsAffected > 0);
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+         
         }
 
         public static DataTable GetAllPersonsData()

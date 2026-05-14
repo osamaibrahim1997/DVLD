@@ -24,6 +24,7 @@ namespace DVLD.Drivers
         {
             _AllDriversList = clsDriver.GetAllDriversList();
                  dgvDrivers.DataSource = _AllDriversList;
+            lblRecordsCount.Text = _AllDriversList.Rows.Count.ToString();
             if (_AllDriversList.Rows.Count > 0 )
             {
                 dgvDrivers.Columns[0].HeaderText = "Driver ID";

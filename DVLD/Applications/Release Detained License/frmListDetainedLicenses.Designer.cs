@@ -36,17 +36,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.dgvDetainedLicenses = new System.Windows.Forms.DataGridView();
-            this.lblTotalRecords = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.cmsApplications = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnClose = new System.Windows.Forms.Button();
-            this.btnReleaseDetainedLicense = new System.Windows.Forms.Button();
-            this.btnDetainLicense = new System.Windows.Forms.Button();
             this.PesonDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showPersonLicenseHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.releaseDetainedLicenseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lblTotalRecords = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.btnReleaseDetainedLicense = new System.Windows.Forms.Button();
+            this.btnDetainLicense = new System.Windows.Forms.Button();
             this.pbPersonImage = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetainedLicenses)).BeginInit();
             this.cmsApplications.SuspendLayout();
@@ -144,25 +144,6 @@
             this.dgvDetainedLicenses.TabStop = false;
             this.dgvDetainedLicenses.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDetainedLicenses_CellMouseDown);
             // 
-            // lblTotalRecords
-            // 
-            this.lblTotalRecords.AutoSize = true;
-            this.lblTotalRecords.Location = new System.Drawing.Point(116, 475);
-            this.lblTotalRecords.Name = "lblTotalRecords";
-            this.lblTotalRecords.Size = new System.Drawing.Size(19, 13);
-            this.lblTotalRecords.TabIndex = 168;
-            this.lblTotalRecords.Text = "??";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 475);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(96, 20);
-            this.label5.TabIndex = 167;
-            this.label5.Text = "# Records:";
-            // 
             // cmsApplications
             // 
             this.cmsApplications.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -173,46 +154,6 @@
             this.releaseDetainedLicenseToolStripMenuItem});
             this.cmsApplications.Name = "contextMenuStrip1";
             this.cmsApplications.Size = new System.Drawing.Size(242, 162);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(238, 6);
-            // 
-            // btnClose
-            // 
-            this.btnClose.AutoEllipsis = true;
-            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
-            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(861, 478);
-            this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(135, 36);
-            this.btnClose.TabIndex = 169;
-            this.btnClose.Text = "Close";
-            this.btnClose.UseVisualStyleBackColor = true;
-            // 
-            // btnReleaseDetainedLicense
-            // 
-            this.btnReleaseDetainedLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReleaseDetainedLicense.Image = global::DVLD.Properties.Resources.Release_Detained_License_64;
-            this.btnReleaseDetainedLicense.Location = new System.Drawing.Point(814, 155);
-            this.btnReleaseDetainedLicense.Name = "btnReleaseDetainedLicense";
-            this.btnReleaseDetainedLicense.Size = new System.Drawing.Size(88, 75);
-            this.btnReleaseDetainedLicense.TabIndex = 171;
-            this.btnReleaseDetainedLicense.UseVisualStyleBackColor = true;
-            // 
-            // btnDetainLicense
-            // 
-            this.btnDetainLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetainLicense.Image = global::DVLD.Properties.Resources.Detain_64;
-            this.btnDetainLicense.Location = new System.Drawing.Point(908, 155);
-            this.btnDetainLicense.Name = "btnDetainLicense";
-            this.btnDetainLicense.Size = new System.Drawing.Size(88, 75);
-            this.btnDetainLicense.TabIndex = 170;
-            this.btnDetainLicense.UseVisualStyleBackColor = true;
-            this.btnDetainLicense.Click += new System.EventHandler(this.btnDetainLicense_Click);
             // 
             // PesonDetailsToolStripMenuItem
             // 
@@ -241,6 +182,11 @@
             this.showPersonLicenseHistoryToolStripMenuItem.Text = "Show Person License History";
             this.showPersonLicenseHistoryToolStripMenuItem.Click += new System.EventHandler(this.showPersonLicenseHistoryToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(238, 6);
+            // 
             // releaseDetainedLicenseToolStripMenuItem
             // 
             this.releaseDetainedLicenseToolStripMenuItem.Image = global::DVLD.Properties.Resources.Release_Detained_License_32;
@@ -249,6 +195,61 @@
             this.releaseDetainedLicenseToolStripMenuItem.Size = new System.Drawing.Size(241, 38);
             this.releaseDetainedLicenseToolStripMenuItem.Text = "Release Detained License";
             this.releaseDetainedLicenseToolStripMenuItem.Click += new System.EventHandler(this.releaseDetainedLicenseToolStripMenuItem_Click);
+            // 
+            // lblTotalRecords
+            // 
+            this.lblTotalRecords.AutoSize = true;
+            this.lblTotalRecords.Location = new System.Drawing.Point(116, 475);
+            this.lblTotalRecords.Name = "lblTotalRecords";
+            this.lblTotalRecords.Size = new System.Drawing.Size(19, 13);
+            this.lblTotalRecords.TabIndex = 168;
+            this.lblTotalRecords.Text = "??";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(22, 475);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 20);
+            this.label5.TabIndex = 167;
+            this.label5.Text = "# Records:";
+            // 
+            // btnClose
+            // 
+            this.btnClose.AutoEllipsis = true;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Image = global::DVLD.Properties.Resources.Close_32;
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.Location = new System.Drawing.Point(861, 478);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(135, 36);
+            this.btnClose.TabIndex = 169;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            // 
+            // btnReleaseDetainedLicense
+            // 
+            this.btnReleaseDetainedLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReleaseDetainedLicense.Image = global::DVLD.Properties.Resources.Release_Detained_License_64;
+            this.btnReleaseDetainedLicense.Location = new System.Drawing.Point(814, 155);
+            this.btnReleaseDetainedLicense.Name = "btnReleaseDetainedLicense";
+            this.btnReleaseDetainedLicense.Size = new System.Drawing.Size(88, 75);
+            this.btnReleaseDetainedLicense.TabIndex = 171;
+            this.btnReleaseDetainedLicense.UseVisualStyleBackColor = true;
+            this.btnReleaseDetainedLicense.Click += new System.EventHandler(this.btnReleaseDetainedLicense_Click);
+            // 
+            // btnDetainLicense
+            // 
+            this.btnDetainLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDetainLicense.Image = global::DVLD.Properties.Resources.Detain_64;
+            this.btnDetainLicense.Location = new System.Drawing.Point(908, 155);
+            this.btnDetainLicense.Name = "btnDetainLicense";
+            this.btnDetainLicense.Size = new System.Drawing.Size(88, 75);
+            this.btnDetainLicense.TabIndex = 170;
+            this.btnDetainLicense.UseVisualStyleBackColor = true;
+            this.btnDetainLicense.Click += new System.EventHandler(this.btnDetainLicense_Click);
             // 
             // pbPersonImage
             // 
