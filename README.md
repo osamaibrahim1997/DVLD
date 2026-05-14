@@ -22,7 +22,7 @@ The application provides a complete workflow for managing driving license operat
 ---
 
 # 🚀 Features
-![Login Screen](Screenshots/Login.png)
+![Login Screen](Screenshots/login.png)
 ## 👤 People Management
 ![Main Screen](Screenshots/Main_Screen.png)
 - Add new people
