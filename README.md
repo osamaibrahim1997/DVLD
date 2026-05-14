@@ -126,7 +126,7 @@ SQL Server Database
 ---
 
 # 🗄 Database
- ![Databae Diagram](Screenshots/database_Diagram.png)
+
 The project uses SQL Server database with relational tables and stored procedures to manage:
 
 - Applications
