@@ -22,14 +22,15 @@ The application provides a complete workflow for managing driving license operat
 ---
 
 # 🚀 Features
-![Main Screen](Screenshots/Main_Screen.png)
+![Login Screen](Screenshots/Login.png)
 ## 👤 People Management
+![Main Screen](Screenshots/Main_Screen.png)
 - Add new people
 - Update person information
 - Delete people
 - Search and filter people
 - Store personal details and images
-![Login Screen](Screenshots/Manage_People.png)
+![Manage People](Screenshots/Manage_People.png)
 ---
 
 ## 🚘 Driver Management
@@ -43,13 +44,13 @@ The application provides a complete workflow for managing driving license operat
 - Issue new local driving licenses
   ![Issue License First Time](Screenshots/Issue_License_First_Time.png)
 - Renew licenses
- ![Renew License](Screenshots/login.png) 
+ ![Renew License](Screenshots/Renew_License.png)
 - Replace lost licenses &  Replace damaged licenses
  ![Lost For damaged Or Lost](Screenshots/Replace_For_Lost_Or_Damage.png)
 - Release detained licenses
  ![Release Detaind License](Screenshots/Release_Detained_License.png)
 - Retake tests
- ![Retake Test](Screenshots/Release_Detained_License.png)
+ ![Retake Test](Screenshots/take_Test.png)
 - Issue new International driving licenses
    ![Issue International License](Screenshots/Issue_International_License.png)
 ---
@@ -61,7 +62,7 @@ The application provides a complete workflow for managing driving license operat
 - Schedule street tests
 - Manage test appointments
 - Save test results
- ![take Test](Renew_License/take_Test.png)
+ ![Retake Test](Screenshots/take_Test.png)
 take_Test
 ---
 
@@ -80,8 +81,9 @@ take_Test
    ![Manage Users](Screenshots/Manage_Users.png)
 - Manage permissions
 - Enable/Disable users
+   ![Change Password](Screenshots/Change_UserPassword.png)
 - Login system
- ![Change Password](Screenshots/Change_UserPassword.png)
+
 ---
 
 ## 💰 Fees & Validation
@@ -141,12 +143,6 @@ The project uses SQL Server database with relational tables and stored procedure
 3. Open the solution using Visual Studio
 4. Update the connection string
 5. Run the project
-
----
-
-# 📸 Screenshots
-
-(Add your screenshots here)
 
 ---
 
@@ -297,13 +293,6 @@ Osama Ibrahim
 5. تشغيل المشروع
 
 ---
-
-# 📸 صور من المشروع
-
-(أضف الصور هنا)
-
----
-
 # 👨‍💻 المطور
 
 Osama Ibrahim
