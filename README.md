@@ -109,10 +109,7 @@ Business Logic Layer (BLL)
 Data Access Layer (DAL)
         ↓
 SQL Server Database
-```
 
-
----
 
 # 🛠 Technologies Used
 
