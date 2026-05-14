@@ -110,7 +110,7 @@ Data Access Layer (DAL)
         ↓
 SQL Server Database
 ```
-![Database Diagram](ScreenShots/Database_Diagram.png)
+
 
 ---
 
