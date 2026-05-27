@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|d:\\dvld reserv\\dvld-on-github\\dvld\\global clases\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|solutionrelative:global clases\\clsglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|d:\\dvld reserv\\dvld-on-github\\dvld\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|d:\\dvld reserv\\dvld-on-github\\dvld\\login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|solutionrelative:login\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|d:\\dvld reserv\\dvld-on-github\\dvld\\applications\\release detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90824D7E-D494-4582-8839-3405A10665EC}|DVLD.csproj|solutionrelative:applications\\release detained license\\frmlistdetainedlicenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "clsGlobal.cs",
+              "DocumentMoniker": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Global clases\\clsGlobal.cs",
+              "RelativeDocumentMoniker": "Global clases\\clsGlobal.cs",
+              "ToolTip": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Global clases\\clsGlobal.cs",
+              "RelativeToolTip": "Global clases\\clsGlobal.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAqwFUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:24:39.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Login\\frmLogin.cs",
+              "RelativeToolTip": "Login\\frmLogin.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAmwGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:24:34.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Login\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Login\\frmLogin.cs",
+              "ToolTip": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Login\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Login\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:24:32.479Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmListDetainedLicenses.cs",
               "DocumentMoniker": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Applications\\Release Detained License\\frmListDetainedLicenses.cs",
               "RelativeDocumentMoniker": "Applications\\Release Detained License\\frmListDetainedLicenses.cs",
@@ -39,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmListDetainedLicenses.cs [Design]",
               "DocumentMoniker": "D:\\dvld reserv\\DVLD-ON-GITHUB\\DVLD\\Applications\\Release Detained License\\frmListDetainedLicenses.cs",
               "RelativeDocumentMoniker": "Applications\\Release Detained License\\frmListDetainedLicenses.cs",
